@@ -32,9 +32,7 @@ if (verifica === sceltaUtente){
 console.log(randomComputer, verifica,);
 
 
-
-
-
+// Funzioni
 
 function oddEven(num1, num2){
     let somma = num1 + num2 
