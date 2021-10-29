@@ -17,11 +17,8 @@ while(numUtente < 1 || numUtente > 5 || isNaN(numUtente)){
     numUtente  = prompt('inserisci un numero da 1 a 5')
 }
 
-// let numComputer = Math.floor(Math.random() * 5 + 1)
 let randomComputer = randomNumber(1, 5)
-
 let risultato = ''
-
 let verifica = oddEven(numUtente, randomComputer)
 
 if (verifica === sceltaUtente){
@@ -29,7 +26,6 @@ if (verifica === sceltaUtente){
 } else {
     console.log('computer vince');
 }
-console.log(randomComputer, verifica,);
 
 
 // Funzioni
