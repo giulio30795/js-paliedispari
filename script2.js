@@ -4,14 +4,8 @@
 
 let parolaUtente = prompt('inscerisci una parola')
 
-// while (parola =){
-//     parola = prompt('inscerisci una parola')
-// }
 
 console.log(parolaUtente);
-
-
-
 
 let dato = Palindroma(parolaUtente)
 
