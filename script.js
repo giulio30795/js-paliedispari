@@ -27,7 +27,6 @@ if (verifica === sceltaUtente){
     console.log('computer vince');
 }
 
-
 // Funzioni
 
 function oddEven(num1, num2){
